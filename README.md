@@ -7,7 +7,7 @@
 Creation of GitHub repository for the Bikeshare project 
 
 ### Description
-Describe what your project is about and what it does
+The project is all about creating a remote and local repo,working on different branches by editing,adding commits and documenting, merging different branches and pushing back to remote repo.
 
 ### Files used
 Include the files used
