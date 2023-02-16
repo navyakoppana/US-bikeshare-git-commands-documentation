@@ -42,8 +42,14 @@ def get_filters(city,month,day):
       
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     days=['all','monday','tuesday','wednesday','thursday','friday','saturday','sunday']
-    day=input('Which day do you want the data for: ').lower()
-
+    while True:
+        day=input('Which day do you want the data for: ').lower()
+        if day not in ['all','monday','tuesday','wednesday','thursday','friday','saturday','sunday']:
+            print('{} not in list'.format(day))
+            continue
+        else:
+            break
+        
     print('-'*40)
     return city, month, day
 
@@ -186,7 +192,7 @@ def user_stats(df):
     print('-'*40)
 def display_raw_data(df):
     """ To display raw data if asked by the user """
-    i = 0
+    r = 0
     raw = input("Do you want to view the raw data?Yes or No: ").lower() # TO DO: convert the user input to lower case using lower() function
     pd.set_option('display.max_columns',200)
 
@@ -194,9 +200,9 @@ def display_raw_data(df):
         if raw == 'no':
             break
         elif raw == 'yes':
-            print(df[i:i+5]) # TO DO: appropriately subset/slice your dataframe to display next five rows
+            print(df[r:r+5]) # TO DO: appropriately subset/slice your dataframe to display next five rows
             raw = input("Do you want to view more raw data?Yes or No: ").lower() # TO DO: convert the user input to lower case using lower() function
-            i += 5
+            r += 5
         else:
             raw = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
     
