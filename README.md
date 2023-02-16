@@ -16,5 +16,5 @@ The project is all about creating a remote and local repo,working on different b
 4. washington.csv
 
 ### Credits
-This is the link given from the Udacity to start with the project - https://github.com/udacity/pdsnd_github.git
+This is the [ link ](https://github.com/udacity/pdsnd_github.git) given from the Udacity to start with the project.
 
