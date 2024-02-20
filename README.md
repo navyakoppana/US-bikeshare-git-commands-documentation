@@ -1,13 +1,12 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-02/15/2023
+01/11/2023
 
 ### Project Title
-Creation of GitHub repository for the Bikeshare project 
+ Analyzing US Bikeshare data
 
 ### Description
-The project is all about creating a remote and local repo,working on different branches by editing,adding commits and documenting, merging different branches and pushing back to remote repo.
+The project is all about analyzing bicycle sharing system in 3 major cities of USA to uncover bikeshare usage patterns by computing a few descriptive statistics such as popular times of travel,popular stations,trip durations etc.
 
 ### Files used
 1. bikeshare.py
@@ -15,6 +14,8 @@ The project is all about creating a remote and local repo,working on different b
 3. new_york_city.csv
 4. washington.csv
 
-### Credits
-This is the [ link ](https://github.com/udacity/pdsnd_github.git) given from the Udacity to start with the project.
+### Libraries used
+1. Numpy
+2. Pandas
+
 
